@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*tanda bintang berguna untuk memanggil 1 folder yang kita buat */
+*{font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    /*scrool untuk navigasi ke nav lain dengan scroll smooth*/
+    scroll-behavior: smooth;
+}
+
+
+
+.hero{
+      width: 100%;
+
+}
+
+nav{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 0 8%;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+.about{
+    width: 100%;
+    background-color: black;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img{
+    width: 430px;
+    height: auto;
+    border-radius: 30px;
+
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 24px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+
+nav ul li a:hover{
+    color: blanchedalmond;
+    transition: o.5s;
+}
+
+
+.content img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content h3{
+    color: darkgoldenrod;
+    position: absolute;
+    font-size: 36px;
+    top: 22rem;
+    left: 8%;
+
+}
+
+.content h1{
+    color: darkgoldenrod;
+    position: absolute;
+    font-size: 36px;
+    top: 25rem;
+    left: 8%;
+
+}
+
+.content h2{
+    color: darkgoldenrod;
+    position: absolute;
+    font-size: 36px;
+    top: 28rem;
+    left: 8%;
+
+}
+
+.about-text{
+    color: yellow;
+    font-size: 25px;
+    width: 550px;
+
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
